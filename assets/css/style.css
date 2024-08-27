@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+header {
+    margin-bottom: 30px;
+}
+
+.logo {
+    padding: 2% 0;
+}
+
+
+body {
+    background: #F3F5FC;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+
+
+.container {
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+
+.entrada {
+    width: 55%;
+}
+
+.digite-texto {
+    width: 100%;
+}
+
+.digite-texto textarea {
+    border: none;
+    background: none;
+    width: 100%;
+    font-size: 28px;
+    color: #0A3871;
+    resize: none;
+    margin-bottom: 10px;
+}
+
+.digite-texto textarea:focus {
+    border: 0 none;
+    outline: 0;
+}
+
+::placeholder {
+    color: #0A3871;
+}
+
+
+
+.saida {
+    width: 40%;
+}
+
+.conteudo_resultado_vazio {
+    background: #fefefe;
+    text-align: center;
+    width: 80%;
+    height: 90%;
+    padding: 93px 20px;
+    border-radius: 20px;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+}
+
+.conteudo_resultado {
+    text-align: center;
+    background: #fefefe;
+    width: 80%;
+    padding: 10px 20px;
+    border-radius: 20px;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+}
+
+.conteudo_resultado textarea {
+    border: none;
+    background: none;
+    width: 100%;
+    font-size: 20px;
+    color: #0A3871;
+    resize: none;
+    margin-bottom: 10px;
+}
+
+.conteudo_resultado textarea:focus {
+    outline: 0;
+}
+
+
+
+.cripto, .descripto, .copiar {
+    padding: 15px;
+    width: 200px;
+    border-radius: 24px;
+    border: 1px solid #0A3871;
+    font-weight: bold;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.cripto, .copiar {
+    background: #0A3871;
+    color: white;
+}
+
+.cripto:hover, .descripto:hover, .copiar:hover {
+    transform: scale(1.1);
+}
+
+.descripto {
+    background: #D8DFE8;
+    color: #0A3871;
+}
+
+

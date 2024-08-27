@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de Texto</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            
+                <a href="index.html">
+                    <img src="assets/img/alura-logo.png" alt="Logo da Alura">
+                </a>
+            
+        </div>
+    </header>
+    
+    <main>
+
+        <section class="container">
+
+            <div class="entrada">
+                <div class="digite-texto">
+                    <textarea name="text-input" id="text-input" cols="30" rows="13" placeholder="Digite seu texto"></textarea>
+                </div>
+                <p>
+                    <img src="/assets/img/bi_exclamation-circle-fill.png" alt=""> Apenas letras minúsculas e sem acento.
+                </p>
+                <div class="botoes">
+                    <button class="cripto" onclick="btnCriptografar()">
+                        Criptografar
+                    </button>
+                    <button class="descripto" onclick="btnDescriptografar()">
+                        Descriptografar
+                    </button>
+                </div>
+            </div>
+
+            <div class="saida">
+                <div class="conteudo_resultado_vazio">
+                    <img id="img" src="assets/img/menino-lupa.png" alt="Menino com uma lupa" width="60%">
+                    <h2 id="h2-resultado">
+                        Nenhuma mensagem encontrada
+                    </h2>
+                    <p id="p-resultado">
+                        Digite um texto que você deseja criptografar ou descriptografar.
+                    </p>
+                </div>
+                <div class="conteudo_resultado">
+                    <textarea id="text-output" cols="30" rows="20"></textarea>
+                    <button class="copiar" onclick="copiarTexto()">Copiar texto</button>
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+
+    
+   
+    <script src="assets/js/script.js"></script>
+
+</body>
+</html>
